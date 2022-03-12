@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, .body {
+    @apply bg-neutral-900 text-white font-heros text-lg;
+}
+
+.btn-custom {
+    @apply border px-8 py-2 text-white hover:text-neutral-200 transition;
+}
+
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.text-outline-white {
+    @apply text-transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+.text-outline-black {
+    @apply text-transparent;
+    -webkit-text-stroke: 1px #888;
+}
